@@ -1,0 +1,171 @@
+/*header*/
+.logo-header {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: #bcaaa4;
+  font-size: 20px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.links a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.links a:hover {
+  background-color: #d7ccc8;
+  color: #000;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-inp {
+  width: 600px;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-btn {
+  background-color: #d7ccc8;
+  width: 80px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-left: 0;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+/* Dropdown.css */
+.dropdown-toggle {
+  background-color: #d7ccc8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropdown-toggle:hover {
+  background-color: #d7ccc8;
+}
+
+.dropdown-menu {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  font-size: 16px;
+  padding: 10px 20px;
+  color: #333;
+}
+
+.dropdown-item:hover {
+  background-color: #d7ccc8;
+  color: white;
+}
+
+
+/*lists*/
+.main{
+  background-color: #efebe9;
+}
+
+/*footer*/
+.footer-part{
+  background-color: #bcaaa4  ;
+  text-align: center;
+  color: white;
+}
+
+.contact-part {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #efebe9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-part p {
+  text-align: center;
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Error*/
+span {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
