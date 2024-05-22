@@ -38,7 +38,7 @@ const DogsCards = ({ dogs }) => {
           <p><strong>Lifespan::</strong> {dogs.lifespan}</p>
           <p><strong>Origin:</strong> {dogs.origin}</p>
           <p><strong>Temperament:</strong> {dogs.temperament}</p>
-          <p><strong>Colors:</strong> {dogs.colors.join(', ')}</p>
+          <p><strong>Colors:</strong> {dogs.colors}</p>
           <p><strong>Description:</strong> {dogs.description}</p>
           <p><strong>Size:</strong> {dogs.size}</p>
         </Modal.Body>

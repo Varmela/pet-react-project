@@ -36,7 +36,7 @@ const CatsCards = ({ cats }) => {
         <Modal.Body>
           <p><strong>Origin:</strong> {cats.origin}</p>
           <p><strong>Temperament:</strong> {cats.temperament}</p>
-          <p><strong>Colors:</strong> {cats.colors.join(', ')}</p>
+          <p><strong>Colors:</strong> {cats.colors}</p>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
